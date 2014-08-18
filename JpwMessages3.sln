@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpwMessages3", "JpwMessages3\JpwMessages3.csproj", "{8D39C53A-A3CC-45A7-BE10-F4FDC65F1D60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{1378B44F-0D74-4B2D-A7D4-429E0B6E82FA}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebAppPublishModule.psm1 = PublishScripts\AzureWebAppPublishModule.psm1
+		PublishScripts\Publish-WebApplication.ps1 = PublishScripts\Publish-WebApplication.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{72EEE8D9-0486-4583-B8E3-4C3949A5EF4D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\JpwMessages3-WAWS-dev.json = PublishScripts\Configurations\JpwMessages3-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D39C53A-A3CC-45A7-BE10-F4FDC65F1D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D39C53A-A3CC-45A7-BE10-F4FDC65F1D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D39C53A-A3CC-45A7-BE10-F4FDC65F1D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D39C53A-A3CC-45A7-BE10-F4FDC65F1D60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72EEE8D9-0486-4583-B8E3-4C3949A5EF4D} = {1378B44F-0D74-4B2D-A7D4-429E0B6E82FA}
+	EndGlobalSection
+EndGlobal
